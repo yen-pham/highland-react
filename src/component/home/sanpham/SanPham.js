@@ -36,7 +36,6 @@ class SanPham extends Component {
   render() {
     return (
       <Fragment>
-        <Header />
         <GTSanPham
           linkAnh={ndsp[0].linkAnh}
           tieuDe={ndsp[0].tieuDe}
@@ -61,7 +60,6 @@ class SanPham extends Component {
           addCss="sp-caphe3"
         />
 
-        <Footer />
       </Fragment>
     );
   }

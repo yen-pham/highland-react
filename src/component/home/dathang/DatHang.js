@@ -1,14 +1,22 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Form from './Form';
 import GioHang from './GioHang';
+import Header from '../layout/Header';
+import Footer from '../layout/Footer';
 
 class DatHang extends Component {
   render() {
     return (
-      <div class="content dh-content">
+      <Fragment>
+        <Header/>
+        <div className="content dh-content">
+
         <Form/>
         <GioHang/>
       </div>
+      <Footer/>
+      </Fragment>
+      
     );
   }
 }

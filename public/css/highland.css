@@ -601,7 +601,7 @@ TIN TỨC
   width: 30.4%;
   display: inline-block;
   float: left;
-  margin: 0 2%;
+  margin: 0 1%;
 }
 .tt-tintuc {
   float: left;
@@ -1091,6 +1091,7 @@ CÀ PHÊ
 }
 .cp-caphep-gt {
   margin-left: 8%;
+  height: 200px;
 }
 .cp-caphep-gt img {
   width: 41%
@@ -1153,6 +1154,7 @@ CÀ PHÊ
   transform: scale(1.1, 1.1);
   transition: ease-in-out 1s;
 }
+
 /* 
 CHI TIET TIN TUC
 */
@@ -1861,6 +1863,7 @@ header {
  }
  .cp-caphep-gt {
    margin-left: 0;
+
  }
  /* chi tiet san pham */
  .ctsp-chitiet {
@@ -1946,6 +1949,10 @@ header {
  /* chi tiet ve chung toi */
  .ctvct-gy1 div{
   font-size: 180%;
+}
+/* ca phe */
+.cp-caphep-gt {
+  height:220px;
 }
 }
 @media only screen and (max-width:450px) {
